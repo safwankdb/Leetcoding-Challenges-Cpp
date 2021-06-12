@@ -15,3 +15,6 @@ C++ solutions for whatever monthly challenge problems I solve.
 
 - #### Open the Lock
     Do a BFS search, stop searching a branch if any deadlock is encountered.
+
+- #### Min Cost Climbing Stairs
+    Simple 1D dynamic programming. Use top down approach. Total cost from ith step depends on total cost from next 2 steps.
