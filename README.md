@@ -18,3 +18,6 @@ C++ solutions for whatever monthly challenge problems I solve.
 
 - #### Min Cost Climbing Stairs
     Simple 1D dynamic programming. Use top down approach. Total cost from ith step depends on total cost from next 2 steps.
+
+- #### Stone Game VII
+    For stone array from ```[i,...,j]```, look at all possibilities of next 2 steps. Use dp to store solution of ```[i+1,...,j-1], [i+2,...,j], [i,...,j-2]```.
