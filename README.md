@@ -21,3 +21,6 @@ C++ solutions for whatever monthly challenge problems I solve.
 
 - #### Stone Game VII
     For stone array from ```[i,...,j]```, look at all possibilities of next 2 steps. Use dp to store solution of ```[i+1,...,j-1], [i+2,...,j], [i,...,j-2]```.
+
+- #### Max Units on a Truck
+    Variation of Knapsack, since the cost (size) of each box is the same, we can greedily pack the boxes starting with highest units to lowest till truck is filled.
