@@ -24,3 +24,6 @@ C++ solutions for whatever monthly challenge problems I solve.
 
 - #### Max Units on a Truck
     Variation of Knapsack, since the cost (size) of each box is the same, we can greedily pack the boxes starting with highest units to lowest till truck is filled.
+
+- #### Matchsticks to Square
+    Use DFS, add obvious pruning condition, sort the matchstickin in descending order so pruning can be done earlier. Another faster solution exists using dp.
