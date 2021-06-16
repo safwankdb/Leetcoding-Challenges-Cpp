@@ -27,3 +27,6 @@ C++ solutions for whatever monthly challenge problems I solve.
 
 - #### Matchsticks to Square
     Use DFS, add obvious pruning condition, sort the matchstickin in descending order so pruning can be done earlier. Another faster solution exists using dp.
+
+- #### Generate Parantheses
+    Vary number of outer brackets from 0 to n. For the remaining k brackets, add all combinations of f(a) and f(b) where a + b = k. Use set to filter duplicates.
