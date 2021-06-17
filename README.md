@@ -30,3 +30,7 @@ C++ solutions for whatever monthly challenge problems I solve.
 
 - #### Generate Parantheses
     Vary number of outer brackets from 0 to n. For the remaining k brackets, add all combinations of f(a) and f(b) where a + b = k. Use set to filter duplicates.
+
+- #### Number of Subarrays with Bounded Maximum
+    Keep track of left most valid element to include, whenever ```left <= nums[i] <= right``` is encountered, set it as the most latest needed value, for all values <= left, add all subarrays from left most valid to latest needed. If value >= right is found, reset both pointers.
+
