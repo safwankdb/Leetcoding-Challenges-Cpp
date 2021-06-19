@@ -34,3 +34,5 @@ C++ solutions for whatever monthly challenge problems I solve.
 - #### Number of Subarrays with Bounded Maximum
     Keep track of left most valid element to include, whenever ```left <= nums[i] <= right``` is encountered, set it as the most latest needed value, for all values <= left, add all subarrays from left most valid to latest needed. If value >= right is found, reset both pointers.
 
+- #### Range Sum Query - Mutable
+    Use Fenwick tree. Make an array indexed from 1 to n, for every index i, the array contains sum of m elements including and below i from the original array, where m is the value of LSB of i. Update accordingly.
