@@ -36,3 +36,6 @@ C++ solutions for whatever monthly challenge problems I solve.
 
 - #### Range Sum Query - Mutable
     Use Fenwick tree. Make an array indexed from 1 to n, for every index i, the array contains sum of m elements including and below i from the original array, where m is the value of LSB of i. Update accordingly.
+
+- #### Swim in Rising Water
+    Use binary search to find minimum viable t. To check a single value of t, use dfs based union-find like in [Max Area of Island](https://leetcode.com/problems/max-area-of-island/).
