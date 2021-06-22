@@ -39,3 +39,6 @@ C++ solutions for whatever monthly challenge problems I solve.
 
 - #### Swim in Rising Water
     Use binary search to find minimum viable t. To check a single value of t, use dfs based union-find like in [Max Area of Island](https://leetcode.com/problems/max-area-of-island/).
+
+- #### Pascal's Triangle
+    Use a function for nCr and iterate.
