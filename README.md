@@ -42,3 +42,6 @@ C++ solutions for whatever monthly challenge problems I solve.
 
 - #### Pascal's Triangle
     Use a function for nCr and iterate.
+
+- #### Reverse Linked List II
+    Reverse from left node, keep a counter for number of reversals. special case when left = 1.
