@@ -45,3 +45,12 @@ C++ solutions for whatever monthly challenge problems I solve.
 
 - #### Reverse Linked List II
     Reverse from left node, keep a counter for number of reversals. special case when left = 1.
+
+
+- #### Out of Boundary Paths
+    Use 3D DP, ```dp[i][j][k]``` is number of ways to reach boundary from (i, j) in k moves exactly. Space can be optimised, use 2 2d dp instead of 3d dp since only k-1 th array is being used. 
+    
+    ```
+    dp[i][j][k] = dp[i+1][j][k-1] + dp[i-1][j][k-1] + dp[i][j+1][k-1] + dp[i][j-1][k-1]
+    ans = dp[x][y].sum()
+    ```
