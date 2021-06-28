@@ -54,3 +54,12 @@ C++ solutions for whatever monthly challenge problems I solve.
     dp[i][j][k] = dp[i+1][j][k-1] + dp[i-1][j][k-1] + dp[i][j+1][k-1] + dp[i][j-1][k-1]
     ans = dp[x][y].sum()
     ```
+
+- #### Redundant Connection
+    Use simple Union Find to detect the cycle. Can use path compression in the ```find()``` method for boost. Ranking is not required.
+
+- #### Candy
+    Solve the left and right directional subproblems independetly. Note that the max of each element would satisfy both conditions and is actually the optimum for atleast one subproblem, hence it should be the optimal answer.
+
+- #### Remove All Adjacent Duplicates In String
+    Push all chars in a stack one by one, if the current char matches the top of the stack, pop it. Then build the string from stack and reverse it. Use deque to avoid reversing step.
