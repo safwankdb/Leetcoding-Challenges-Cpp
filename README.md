@@ -63,3 +63,6 @@ C++ solutions for whatever monthly challenge problems I solve.
 
 - #### Remove All Adjacent Duplicates In String
     Push all chars in a stack one by one, if the current char matches the top of the stack, pop it. Then build the string from stack and reverse it. Use deque to avoid reversing step.
+
+- #### Max Consecutive Ones III
+    - O(Nlog(N)) solution: Use a check function to see if there is a contiguous subarray of length m with <= k zeros. Then binary search over parameter m to find max value.
