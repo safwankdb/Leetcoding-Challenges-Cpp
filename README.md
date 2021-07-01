@@ -2,6 +2,12 @@
 
 C++ solutions for whatever monthly challenge problems I solve.
 
+### July
+
+- #### Gray Code
+    - Use DFS. For each number pushed into answer array, insert the next unvisited number obatined by flipping a single bit, continue till all are visited. This is slightly slow.
+    - Use the result of n-1. Dor first half prepend a 0 to all numbers, then reverse the list and prepend 1 to all. 
+
 ### June
 
 - #### Max Area of Island
@@ -66,3 +72,6 @@ C++ solutions for whatever monthly challenge problems I solve.
 
 - #### Max Consecutive Ones III
     - O(Nlog(N)) solution: Use a check function to see if there is a contiguous subarray of length m with <= k zeros. Then binary search over parameter m to find max value.
+
+- #### Lowest Common Ancestor of a Binary Tree
+    Write a find(x, y) function to find if node x is in subtree y. Check if p is in q subtree and vice versa. If both are in left, recurse with left as root, same for right. If both are in different subtrees, return root.
