@@ -1,5 +1,9 @@
 # July Challenge
 
+#### Max Sum of Rectangle No Larger Than K
+- Use the concept from [Maximum subarray sum less than equal to k](https://www.geeksforgeeks.org/maximum-sum-subarray-having-sum-less-than-or-equal-to-given-sum-using-set/). Can be found in O(nlog(n)).
+- Iterate over all combinations of columns to be included in the rectangle (O(m^2)), find their sum, apply the above function on the sum array.
+
 #### Find K Closest Elements
 - Use min heap to find top k elements with custom comparator parametrized with x (use lambda with capture).
 - Since the array is sorted, use binary search to find the starting index of subarray.
