@@ -1,5 +1,8 @@
 # July Challenge
 
+#### Count Vowels Permutation
+Make a 2D DP where DP[i][j] is the number of strings of length i starting with j'th vowel.
+
 #### Max Sum of Rectangle No Larger Than K
 - Use the concept from [Maximum subarray sum less than equal to k](https://www.geeksforgeeks.org/maximum-sum-subarray-having-sum-less-than-or-equal-to-given-sum-using-set/). Can be found in O(nlog(n)).
 - Iterate over all combinations of columns to be included in the rectangle (O(m^2)), find their sum, apply the above function on the sum array.
