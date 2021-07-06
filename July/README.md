@@ -1,7 +1,10 @@
 # July Challenge
 
+#### Reshape Matrix
+- Allocate memory and fill it iteratively. i'th element would have index [i / c][i % c].
+
 #### Count Vowels Permutation
-Make a 2D DP where DP[i][j] is the number of strings of length i starting with j'th vowel.
+- Make a 2D DP where DP[i][j] is the number of strings of length i starting with j'th vowel.
 
 #### Max Sum of Rectangle No Larger Than K
 - Use the concept from [Maximum subarray sum less than equal to k](https://www.geeksforgeeks.org/maximum-sum-subarray-having-sum-less-than-or-equal-to-given-sum-using-set/). Can be found in O(nlog(n)).
