@@ -1,7 +1,7 @@
 # July Challenge
 
 #### Reduce Array Size to The Half
-Use hashmap to get frequency of elements. Choose elements greedily until half are removed (Can use max heap for this).
+- Use hashmap to get frequency of elements. Choose elements greedily until half are removed (Can use max heap for this).
 
 #### Reshape Matrix
 - Allocate memory and fill it iteratively. i'th element would have index [i / c][i % c].
