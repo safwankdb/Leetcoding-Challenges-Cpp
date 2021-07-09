@@ -1,5 +1,8 @@
 # July Challenge
 
+#### Maximum Length of Repeated Subarray
+- 2D DP: dp[i][j] = 1 + dp[i-1][j-1]
+- dp[i][j] is the length of sequence ending for a[:i], b[:j] including their last elements.
 
 #### Kth Smallest Element in a Sorted Matrix
 - For all the below methods : if using heap / set, work with tuple<int, int, int> of (value, row, column).
