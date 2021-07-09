@@ -1,5 +1,12 @@
 # July Challenge
 
+#### Longest Increasing Subsequence
+
+Lon0gest Increasing Subsequence
+1. 1D DP: dp[i] = length of LIS including i'th element is arr[:i]. -> O(n^2)
+2. There is a O(nlog(n)) solution explained [here](https://leetcode.com/problems/longest-increasing-subsequence/solution/).
+
+
 #### Maximum Length of Repeated Subarray
 - 2D DP: dp[i][j] = 1 + dp[i-1][j-1]
 - dp[i][j] is the length of sequence ending for a[:i], b[:j] including their last elements.
